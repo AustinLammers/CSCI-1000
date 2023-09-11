@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-//Simple hello world program that will greet the user by their name.
+//Simple hello world program that will greet the user by their name. 
 int main () {
-	char name[100];
+	char username[100];
 	printf("Enter Your Name\n");
-	scanf("%s", name);
-	printf("Hello %s\n", name);
+	scanf("%s", username);
+	printf("Hello %s\n", username);
 }
